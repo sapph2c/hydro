@@ -1,9 +1,9 @@
 [project]
-name = "hydro"
-version = "1.0.0"
+name = "hydro-cli"
+version = "1.0.1"
 description = "MD5 hash cracker"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "click>=8.1.8",
     "rich>=13.9.4",
