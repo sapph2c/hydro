@@ -3,7 +3,7 @@ from hydro.files import get_hash, get_wordlist
 
 
 TEST_HASH_PATH = "tests/hash.txt"
-TEST_WORDLIST_PATH = "tests/rockyou.txt"
+TEST_WORDLIST_PATH = "tests/wordlist.txt"
 
 
 def test_md5():
