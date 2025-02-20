@@ -6,42 +6,5 @@
 
 Hydro is a MD5 hash cracker written in Python.
 
-## Install
+For more details, visit the [GitHub repository](https://github.com/sapph2c/hydro).
 
-Hydro is available as a Python package on PyPI and can be installed using `uv` (recommended), `pipx`, or `pip`.
-
-**Note**: python 3.13+ is required
-
-Install using uv:
-
-```bash
-uv install tool hydro-cli@latest
-```
-
-Install using pipx:
-
-```bash
-pipx install hydro-cli
-```
-
-Install using pip:
-
-```bash
-pip install hydro-cli
-```
-
-## Usage
-
-To crack a hash located within `hash.txt` with the `rockyou.txt` wordlist:
-
-```bash
-hydro hash.txt rockyou.txt
-```
-
-Sample output:
-
-```bash
-❯ uv run hydro hash.txt wordlist.txt
-
-Success! 5f4dcc3b5aa765d61d8327deb882cf99:password
-```
