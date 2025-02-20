@@ -3,6 +3,7 @@ from hydro.logging import log
 from hydro.files import get_hash, get_wordlist
 
 import click
+import rich
 
 
 @click.command()
@@ -15,7 +16,7 @@ def cli(hash: str, wordlist: str):
         cracker = Cracker(hash, wordlist)
         result = cracker.crack()
         if result:
-            log.info(f"Success! {hash}:{result}")
+            rich.print(f"[bold green]Success![/bold green] {hash}:{result}")
         else:
             log.info("Hash could not be cracked, maybe try a different wordlist")
     except Exception as e:

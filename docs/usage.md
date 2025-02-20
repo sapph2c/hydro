@@ -17,7 +17,9 @@ hydro hash.txt rockyou.txt
 Sample output:
 
 ```bash
+❯ uv run hydro hash.txt wordlist.txt
 
+Success! 5f4dcc3b5aa765d61d8327deb882cf99:password
 ```
 
 For more detailed information and advanced usage, refer to the Hydro GitHub repository.

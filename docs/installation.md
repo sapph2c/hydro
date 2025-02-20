@@ -7,17 +7,17 @@ Hydro is available as a Python package on PyPI and can be installed using `uv` (
 Install using uv:
 
 ```bash
-uv install tool hydro@latest
+uv install tool hydro-cli@latest
 ```
 
 Install using pipx:
 
 ```bash
-pipx install hydro
+pipx install hydro-cli
 ```
 
 Install using pip:
 
 ```bash
-pip install hydro
+pip install hydro-cli
 ```
