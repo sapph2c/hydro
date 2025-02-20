@@ -41,7 +41,7 @@ hydro hash.txt rockyou.txt
 Sample output:
 
 ```bash
-❯ uv run hydro hash.txt wordlist.txt
+❯ uv run hydro hash.txt rockyou.txt
 
 Success! 5f4dcc3b5aa765d61d8327deb882cf99:password
 ```
